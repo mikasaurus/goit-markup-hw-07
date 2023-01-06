@@ -1,0 +1,22 @@
+.join_header {
+  @extend .footer-header;
+  padding-top: 12px;
+}
+
+.join_social {
+  gap: 10px;
+}
+
+.join_icon-box {
+  @extend .social-box;
+  display: flex;
+
+  &:hover {
+    background: $brandColor;
+  }
+}
+
+.join_icon {
+  fill: $white;
+  vertical-align: middle;
+}

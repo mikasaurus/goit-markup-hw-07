@@ -1,0 +1,79 @@
+.header {
+  padding: 25px 0;
+}
+
+.header--underline {
+  box-shadow: $headerUnderline;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  gap: 0 93px;
+}
+
+.nav {
+  gap: 0 46px;
+
+  &_link:link,
+  &_link:visited {
+    font-size: $textSize;
+    font-weight: $regular;
+    line-height: 1.14;
+    color: $mainColor;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+
+  &_link:hover,
+  &_link:focus,
+  &_link:active {
+    color: $brandColor;
+  }
+}
+
+.nav_link--active {
+  position: relative;
+  color: $brandColor;
+
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 43px;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: $brandColor;
+  }
+}
+
+.contact {
+  gap: 0 30px;
+}
+
+.contact_link:link,
+.contact_link:visited {
+  font-size: $textSize;
+  font-weight: $regular;
+  line-height: 1.14;
+  color: $secondary;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contact_link:hover,
+.contact_link:active,
+.contact_link:focus {
+  color: $brandColor;
+}
+
+.contact_icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  fill: currentColor;
+}

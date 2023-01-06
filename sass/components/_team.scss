@@ -1,0 +1,67 @@
+.team {
+  background-color: $complementary;
+  display: flex;
+  justify-content: space-evenly;
+
+  &_header {
+    @extend .info-header;
+    padding: 94px 495px 50px 495px;
+  }
+
+  &_box {
+    justify-content: space-evenly;
+  }
+
+  &_frame {
+    background-color: $white;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: $frameShadow;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+
+  &_name {
+    color: $mainColor;
+    font-size: $standardSize;
+    line-height: 1.9;
+    font-weight: $regular;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: $standardSpacing;
+    padding: 30px 99px 10px;
+  }
+
+  &_position {
+    color: $secondary;
+    font-size: $standardSize;
+    line-height: 1.9;
+    font-weight: $thin;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: $standardSpacing;
+  }
+
+  &_social-icons {
+    display: flex;
+    padding: 0 32px;
+    margin-top: 16px;
+    gap: 10px;
+  }
+}
+
+.team_icon-box {
+  @extend .social-box;
+
+  &:hover {
+    background: $brandColor;
+  }
+}
+
+.team_icon {
+  fill: $iconColor;
+  vertical-align: middle;
+}
+
+.team_icon-box:hover > .team_icon {
+  fill: $white;
+}

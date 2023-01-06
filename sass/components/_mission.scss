@@ -1,0 +1,38 @@
+.mission_flex {
+  display: flex;
+  justify-content: center;
+}
+
+.mission_header {
+  @extend .info-header;
+  padding: 0px 424px 50px 424px;
+}
+
+.mission_frame {
+  margin: 15px;
+}
+
+.mission_box {
+  position: relative;
+}
+
+.mission_title {
+  position: absolute;
+  background: $bgOpacity;
+  color: $white;
+  padding: 27px;
+  font-size: 14px;
+  font-weight: $bold;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: $standardSpacing;
+  text-transform: uppercase;
+  white-space: nowrap;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.mission_img {
+  display: block;
+}

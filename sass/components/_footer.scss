@@ -1,0 +1,27 @@
+.footer {
+  background-color: $fillerBg;
+  padding: 60px 0px;
+}
+
+.footer_container {
+  display: flex;
+  gap: 70px;
+}
+
+.footer_address {
+  font-style: normal;
+  color: $white;
+  font-size: $textSize;
+  line-height: 1.7;
+  letter-spacing: $standardSpacing;
+  padding-bottom: 9px;
+
+  & a:link {
+    color: $secondaryLink;
+    text-decoration: none;
+  }
+
+  &--odd {
+    text-decoration: underline $secondaryLink;
+  }
+}
