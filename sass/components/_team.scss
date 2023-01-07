@@ -3,16 +3,16 @@
   display: flex;
   justify-content: space-evenly;
 
-  &_header {
+  &__header {
     @extend .info-header;
     padding: 94px 495px 50px 495px;
   }
 
-  &_box {
+  &__box {
     justify-content: space-evenly;
   }
 
-  &_frame {
+  &__frame {
     background-color: $white;
     border-radius: 0px 0px 4px 4px;
     box-shadow: $frameShadow;
@@ -20,7 +20,7 @@
     padding-bottom: 30px;
   }
 
-  &_name {
+  &__name {
     color: $mainColor;
     font-size: $standardSize;
     line-height: 1.9;
@@ -31,7 +31,7 @@
     padding: 30px 99px 10px;
   }
 
-  &_position {
+  &__position {
     color: $secondary;
     font-size: $standardSize;
     line-height: 1.9;
@@ -41,7 +41,7 @@
     letter-spacing: $standardSpacing;
   }
 
-  &_social-icons {
+  &__social-icons {
     display: flex;
     padding: 0 32px;
     margin-top: 16px;
@@ -49,7 +49,7 @@
   }
 }
 
-.team_icon-box {
+.team__icon-box {
   @extend .social-box;
 
   &:hover {
@@ -57,11 +57,11 @@
   }
 }
 
-.team_icon {
+.team__icon {
   fill: $iconColor;
   vertical-align: middle;
 }
 
-.team_icon-box:hover > .team_icon {
+.team__icon-box:hover > .team__icon {
   fill: $white;
 }

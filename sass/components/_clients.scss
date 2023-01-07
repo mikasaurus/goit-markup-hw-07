@@ -1,16 +1,16 @@
-.clients_header {
+.clients__header {
   @extend .info-header;
   padding: 94px 424px 50px 424px;
 }
 
-.clients_list {
+.clients__list {
   justify-content: center;
   gap: 30px;
   list-style-type: none;
   display: flex;
 }
 
-.clients_link {
+.clients__link {
   display: block;
   border: 1px solid $iconColor;
   border-radius: 4px;

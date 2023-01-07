@@ -3,12 +3,20 @@
   padding: 60px 0px;
 }
 
-.footer_container {
+.footer__container {
   display: flex;
   gap: 70px;
 }
 
-.footer_address {
+.footer__logo,
+.footer__logo a:link,
+.footer__logo a:visited {
+  @extend .logo;
+  color: $white;
+  padding-bottom: 20px;
+}
+
+.footer__address {
   font-style: normal;
   color: $white;
   font-size: $textSize;

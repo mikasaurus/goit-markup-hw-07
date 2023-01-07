@@ -1,13 +1,13 @@
-.join_header {
+.join__header {
   @extend .footer-header;
   padding-top: 12px;
 }
 
-.join_social {
+.join__social {
   gap: 10px;
 }
 
-.join_icon-box {
+.join__icon-box {
   @extend .social-box;
   display: flex;
 
@@ -16,7 +16,7 @@
   }
 }
 
-.join_icon {
+.join__icon {
   fill: $white;
   vertical-align: middle;
 }

@@ -1,22 +1,22 @@
-.mission_flex {
+.mission__flex {
   display: flex;
   justify-content: center;
 }
 
-.mission_header {
+.mission__header {
   @extend .info-header;
   padding: 0px 424px 50px 424px;
 }
 
-.mission_frame {
+.mission__frame {
   margin: 15px;
 }
 
-.mission_box {
+.mission__box {
   position: relative;
 }
 
-.mission_title {
+.mission__title {
   position: absolute;
   background: $bgOpacity;
   color: $white;
@@ -33,6 +33,6 @@
   left: 0;
 }
 
-.mission_img {
+.mission__img {
   display: block;
 }

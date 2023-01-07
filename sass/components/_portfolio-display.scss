@@ -2,12 +2,12 @@
   display: flex;
 }
 
-.portfolio_box {
+.portfolio__box {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.portfolio_display {
+.portfolio__display {
   border: 1px solid $filler;
   border-radius: 1px;
   margin-top: 30px;
@@ -19,14 +19,14 @@
   }
 }
 
-.portfolio_overlay {
+.portfolio__overlay {
   position: relative;
   width: 370px;
   height: 274px;
   overflow: hidden;
 }
 
-.portfolio_description {
+.portfolio__description {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -44,11 +44,11 @@
   padding: 49px 45px 49px 24px;
 }
 
-.portfolio_display:hover .portfolio_description {
+.portfolio__display:hover .portfolio__description {
   transform: translatey(0);
 }
 
-.portfolio_header {
+.portfolio__header {
   color: $mainColor;
   font-size: $secondaryHeaderSize;
   line-height: 2;
@@ -59,7 +59,7 @@
   padding: 20px 24px 4px 24px;
 }
 
-.portfolio_product {
+.portfolio__product {
   color: $secondary;
   font-size: $standardSize;
   line-height: 1.9;

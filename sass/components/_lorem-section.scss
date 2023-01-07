@@ -2,13 +2,13 @@
   display: flex;
   gap: 30px;
 
-  &_icon {
+  &__icon {
     background-color: $complementary;
     padding: 25px 102px;
     border-radius: 4px;
   }
 
-  &_header {
+  &__header {
     color: $mainColor;
     font-size: $textSize;
     line-height: 1.14;
@@ -20,7 +20,7 @@
     text-align: left;
   }
 
-  &_paragraph {
+  &__paragraph {
     color: $secondary;
     font-size: $textSize;
     line-height: 1.7;

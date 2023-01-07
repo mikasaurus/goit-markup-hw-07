@@ -2,18 +2,18 @@
   padding-left: 8px;
   padding-top: 12px;
 
-  &_header {
+  &__header {
     @extend .footer-header;
   }
 
-  &_box {
+  &__box {
     display: flex;
     gap: 12px;
     align-items: center;
   }
 }
 
-.newsletter_input {
+.newsletter__input {
   background-color: $fillerBg;
   color: $secondaryLink;
   border: 1px solid $newsletterInput;
@@ -34,7 +34,7 @@
   }
 }
 
-.newsletter_button {
+.newsletter__button {
   @extend .button;
   box-shadow: $modalButtonShadow;
   display: flex;
@@ -53,11 +53,11 @@
   }
 }
 
-.newsletter_icon {
+.newsletter__icon {
   fill: $white;
 }
 
-.newsletter_button:hover > .newsletter_icon,
-.newsletter_button:focus > .newsletter_icon {
+.newsletter__button:hover > .newsletter__icon,
+.newsletter__button:focus > .newsletter__icon {
   fill: $brandColor;
 }
