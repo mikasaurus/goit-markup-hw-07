@@ -47,19 +47,19 @@
     margin-top: 16px;
     gap: 10px;
   }
-}
 
-.team__icon-box {
-  @extend .social-box;
+  &__icon-box {
+    @extend .social-box;
 
-  &:hover {
-    background: $brandColor;
+    &:hover {
+      background: $brandColor;
+    }
   }
-}
 
-.team__icon {
-  fill: $iconColor;
-  vertical-align: middle;
+  &_icon {
+    fill: $iconColor;
+    vertical-align: middle;
+  }
 }
 
 .team__icon-box:hover > .team__icon {

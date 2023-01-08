@@ -23,20 +23,20 @@
     margin-bottom: 30px;
     max-width: 696px;
   }
-}
 
-.hero__button {
-  @extend .button;
-  padding: 10px 40px;
-  white-space: nowrap;
-  transition-property: background-color, color, box-shadow;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &__button {
+    @extend .button;
+    padding: 10px 40px;
+    white-space: nowrap;
+    transition-property: background-color, color, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover,
-  &:focus {
-    background-color: $white;
-    color: $brandColor;
-    box-shadow: $buttonShadow;
+    &:hover,
+    &:focus {
+      background-color: $white;
+      color: $brandColor;
+      box-shadow: $buttonShadow;
+    }
   }
 }

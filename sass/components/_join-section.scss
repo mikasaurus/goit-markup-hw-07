@@ -1,22 +1,24 @@
-.join__header {
-  @extend .footer-header;
-  padding-top: 12px;
-}
-
-.join__social {
-  gap: 10px;
-}
-
-.join__icon-box {
-  @extend .social-box;
-  display: flex;
-
-  &:hover {
-    background: $brandColor;
+.join {
+  &__header {
+    @extend .footer-header;
+    padding-top: 12px;
   }
-}
 
-.join__icon {
-  fill: $white;
-  vertical-align: middle;
+  &__social {
+    gap: 10px;
+  }
+
+  &__icon-box {
+    @extend .social-box;
+    display: flex;
+
+    &:hover {
+      background: $brandColor;
+    }
+  }
+
+  &__icon {
+    fill: $white;
+    vertical-align: middle;
+  }
 }

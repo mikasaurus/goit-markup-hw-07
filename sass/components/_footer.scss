@@ -1,35 +1,35 @@
 .footer {
   background-color: $fillerBg;
   padding: 60px 0px;
-}
 
-.footer__container {
-  display: flex;
-  gap: 70px;
-}
-
-.footer__logo,
-.footer__logo a:link,
-.footer__logo a:visited {
-  @extend .logo;
-  color: $white;
-  padding-bottom: 20px;
-}
-
-.footer__address {
-  font-style: normal;
-  color: $white;
-  font-size: $textSize;
-  line-height: 1.7;
-  letter-spacing: $standardSpacing;
-  padding-bottom: 9px;
-
-  & a:link {
-    color: $secondaryLink;
-    text-decoration: none;
+  &__container {
+    display: flex;
+    gap: 70px;
   }
 
-  &--odd {
-    text-decoration: underline $secondaryLink;
+  &__logo,
+  &__logo a:link,
+  &__logo a:visited {
+    @extend .logo;
+    color: $white;
+    padding-bottom: 20px;
+  }
+
+  &__address {
+    font-style: normal;
+    color: $white;
+    font-size: $textSize;
+    line-height: 1.7;
+    letter-spacing: $standardSpacing;
+    padding-bottom: 9px;
+
+    & a:link {
+      color: $secondaryLink;
+      text-decoration: none;
+    }
+
+    &--odd {
+      text-decoration: underline $secondaryLink;
+    }
   }
 }

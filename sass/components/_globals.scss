@@ -1,4 +1,12 @@
 // Global
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: $mainFont;
+}
+
 .list-flex {
   list-style-type: none;
   display: flex;
